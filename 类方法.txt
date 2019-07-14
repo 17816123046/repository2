@@ -1,0 +1,7 @@
+class Student:
+    company = 'LOL'
+    @classmethod
+    def say_company(cls):
+        print(cls.company)
+
+Student.say_company()

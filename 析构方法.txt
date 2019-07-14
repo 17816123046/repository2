@@ -1,0 +1,8 @@
+# -*- coding: GBK -*-
+class Student:
+    company = 'LOL'
+    def __del__(self):
+        print("Ïú»Ù¶ÔÏó{0}".format(self))
+
+s1 = Student()
+del s1

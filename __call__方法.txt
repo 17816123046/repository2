@@ -1,0 +1,11 @@
+# -*- coding: GBK -*-
+class SalaryAccount:
+    """工资计算类"""
+
+    def __call__(self):
+        print("算工资了")
+	
+    
+
+s1 = SalaryAccount()
+s1()
